@@ -9,6 +9,12 @@ let altura= parseFloat (prompt("informe sua altura"));
     if (IMC>=18 && IMC<24.9){
     document.write("peso ideal")
     } else if(IMC>25 && IMC <28){
-        
-    }
+        document.write("excesso de peso")
+    } else if(IMC>=30 && IMC <34){
+       document.write("obisidade classe 1")
+    } else if(IMC>=35 && IMC <39){
+      document.write("obesidade classe 2")
+    } else if(IMC>=40){
+      document.write("obesidade classe 3")
+    } 
   }
